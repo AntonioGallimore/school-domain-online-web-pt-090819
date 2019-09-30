@@ -8,7 +8,7 @@ class School
   
   def add_student(name, grade)
     if roster[grade]
-      
+      rooster[grade] << student_
   end
   
   def grade(grade)
