@@ -4,7 +4,7 @@ class School
     @name = name
     @roster = {}
   end
-
+  
     roster[grade] ||= []
     roster[grade] << student_name
   end
