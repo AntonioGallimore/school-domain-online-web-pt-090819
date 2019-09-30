@@ -23,4 +23,5 @@ class School
       roster[grade] = student.sort
   end
 end
+end 
 end
