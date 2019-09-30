@@ -10,6 +10,8 @@ class School
     if roster[grade]
       rooster[grade] << student_name
     else
+      roster[grade] = []
+      roster[grade] << student_name
   end
   
   def grade(grade)
